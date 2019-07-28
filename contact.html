@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Marcus - Contact Me</title>
+            
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>    
+
+<body class='container'>
+    <header>
+        <!-- .column-header to set width and center -->
+        <div class='column-header'>
+            <!-- #myName for top-left header -->
+            <h1 id='myName'>Marcus Yu</h1>
+            
+            <!-- <nav> will be in-line with header, top-right -->
+            <nav>
+                <!-- #navlink(n) for site navigation links -->
+                <a id='navlink1' href="index.html">About</a>
+            
+                <a id='navlink2' href="portfolio.html">Portfolio</a>
+                
+                <a id='navlink3' href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+                
+    <main>
+        <!-- .column-main for main body column -->
+        <div class='column-main'>
+            <!-- #pgTitle for main content title -->
+            <h2 id='pgTitle'>Contact</h2>
+
+            <!-- <form> for email entry form (thank you Tim Stark!) -->
+            <form action="mailto:mhy729@hotmail.com" method="post" enctype="text/plain">
+                Name<br>
+                <input type="text" name="name"><br>
+        
+                Email<br>
+                <input type="text" name="email"><br>
+        
+                Message<br>
+                <textarea name="message"></textarea>
+
+                <input class='button' type="submit" value="Submit">
+                <input class='button' type="reset" value="Reset">
+            </form>
+        </div>
+    </main>
+                
+    <footer>
+        Copyright &copy;
+    </footer>
+</body>
+                
+</html>
