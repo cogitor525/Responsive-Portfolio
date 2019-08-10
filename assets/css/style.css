@@ -44,7 +44,7 @@ a {
 
 main {
     position: relative;
-    padding-bottom: 75px;
+    height: 800px;
     background-image: url("../images/large_leather.png");
 }
 
@@ -197,11 +197,6 @@ h4:nth-child(10) {
         margin-right: 50px;
     }
     .column-main {
-        /* position: relative;
-        top: 35px;
-        background-color: #fff;
-        border: 1px solid #ddd; 
-        padding: 30px 40px 15px 40px; */
         padding-left: 25px;
         padding-right: 25px;
         width: 600px;
@@ -211,69 +206,52 @@ h4:nth-child(10) {
 
 @media screen and (max-width: 768px) {
     .column-header {
-        /* width: auto; */
         margin-left: 15px;
         margin-right: 15px;
     }
+    main {
+        height: auto;
+        padding-bottom: 75px;
+    }
     .column-main {
-        /* position: relative;
-        top: 35px;
-        background-color: #fff;
-        border: 1px solid #ddd;
-        padding: 30px 25px 15px 25px; */
         width: auto;
         margin-left: 15px;
         margin-right: 15px;
     }
     #mypic {
         width: 300px;
-        /* float: left;
-        margin: 10px 35px 15px 0; */
     }
 }
 
 @media screen and (max-width: 640px) {
     header {
-        /* border-bottom: 2px solid #ccc; */
-        height: 120px;
-        /* background-color: #fff; */
+        height: 140px;
     }
     .column-header {
-        /* width: 960px; */
         margin: 0;
+        text-align: center;
     }
     #myName {
         float: none;
-        /* font-family: 'Georgia', Times, Times New Roman, serif;
-        color: white;
-        background-color: #4aaaa5; */
-        width: 100%;
-        margin: auto;
-        /* padding: 25px 38px; */
     }
     nav {
         float: none;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        margin: auto;
+        padding-top: 20px;
     }
     main {
         padding-bottom: 35px;
     }
     .column-main {
-        /* position: relative; */
         top: 15px;
-        /* background-color: #fff;
-        border: 1px solid #ddd; */
         padding: 25px 20px 10px 20px;
-        /* width: auto;
-        margin-left: 15px;
-        margin-right: 15px; */
     }
     #mypic {
         width: 100%;
         float: none;
         margin-right: 0;
         margin-bottom: 5px;
+    }
+    p {
+        font-size: 16px;
     }
 }
