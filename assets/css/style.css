@@ -196,30 +196,70 @@ h4:nth-child(10) {
         margin-left: 50px;
         margin-right: 50px;
     }
+    #index-main {
+        height: auto;
+        padding-bottom: 70px;
+    }
     .column-main {
         padding-left: 25px;
         padding-right: 25px;
-        width: 600px;
+        width: 520px;
         margin-left: 50px;
+    }
+    #pfBox-2 {
+        left: 280px;
+    }
+    #pfBox-4 {
+        left: 280px;
+    }
+    h4:nth-child(4) {
+        left: 280px;
+    }
+    h4:nth-child(8) {
+        left: 280px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .column-header {
+        width: 595px;
         margin-left: 15px;
-        margin-right: 15px;
+        margin-right: 0;
     }
-    main {
-        height: auto;
-        padding-bottom: 75px;
+    #index-main {
+        padding-bottom: 50px;
     }
     .column-main {
-        width: auto;
+        top: 25px;
+        width: 545px;
         margin-left: 15px;
-        margin-right: 15px;
     }
     #mypic {
         width: 300px;
+    }
+    .pfSet {
+        height: 615px;
+    }
+    .pfBox {
+        width: 260px;
+    }
+    h4 {
+        width: 260px;
+    }
+    h4:nth-child(2) {
+        top: 125px;
+    }
+    h4:nth-child(4) {
+        top: 125px;
+    }
+    h4:nth-child(6) {
+        top: 335px;
+    }
+    h4:nth-child(8) {
+        top: 335px;
+    }
+    h4:nth-child(10) {
+        top: 545px;
     }
 }
 
@@ -228,7 +268,8 @@ h4:nth-child(10) {
         height: 140px;
     }
     .column-header {
-        margin: 0;
+        width: auto;
+        margin: auto;
         text-align: center;
     }
     #myName {
@@ -239,11 +280,21 @@ h4:nth-child(10) {
         padding-top: 20px;
     }
     main {
+        height: auto;
         padding-bottom: 35px;
     }
+    #index-main {
+        padding-bottom: 35px;
+    }
+    #contact-main {
+        height: 746px;
+        padding-bottom: 0;
+    }
     .column-main {
+        width: 360px;
         top: 15px;
         padding: 25px 20px 10px 20px;
+        margin: auto;
     }
     #mypic {
         width: 100%;
@@ -253,5 +304,53 @@ h4:nth-child(10) {
     }
     p {
         font-size: 16px;
+    }
+    .pfSet {
+        height: 1240px;
+    }
+    .pfBox {
+        width: 300px;
+    }    
+    #pfBox-1 {
+        left: 25px;
+    }    
+    #pfBox-2 {
+        left: 25px;
+        top: 250px;
+    }    
+    #pfBox-3 {
+        left: 25px;
+        top: 500px;
+    }    
+    #pfBox-4 {
+        left: 25px;
+        top: 760px;
+    }    
+    #pfBox-5 {
+        left: 25px;
+        top: 1000px;
+    }
+    h4 {
+        width: 300px;
+    }
+    h4:nth-child(2) {
+        left: 25px;
+        top: 155px;
+    }
+    h4:nth-child(4) {
+        left: 25px;
+        top: 405px;
+    }
+    h4:nth-child(6) {
+        left: 25px;
+        top: 655px;
+    }
+    h4:nth-child(8) {
+        left: 25px;
+        top: 915px;
+    }
+    h4:nth-child(10) {
+        left: 25px;
+        top: 1155px;
     }
 }
