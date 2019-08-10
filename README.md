@@ -1,2 +1,2 @@
-# Basic-Portfolio
-simple website w/ three webpages
+# Responsive-Portfolio
+making Basic-Portfolio responsive to different viewport sizes
