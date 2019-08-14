@@ -166,25 +166,25 @@ h4 {
     color: white;
 }
 
-h4:nth-child(2) {
+#pfBox-1-title {
     top: 110px;
 }
 
-h4:nth-child(4) {
+#pfBox-2-title {
     top: 110px;
     left: 360px;
 }
 
-h4:nth-child(6) {
+#pfBox-3-title {
     top: 320px;
 }
 
-h4:nth-child(8) {
+#pfBox-4-title {
     top: 320px;
     left: 360px;
 }
 
-h4:nth-child(10) {
+#pfBox-5-title {
     top: 530px;
 }
 
@@ -212,10 +212,10 @@ h4:nth-child(10) {
     #pfBox-4 {
         left: 280px;
     }
-    h4:nth-child(4) {
+    #pfBox-2-title {
         left: 280px;
     }
-    h4:nth-child(8) {
+    #pfBox-4-title {
         left: 280px;
     }
 }
@@ -246,19 +246,19 @@ h4:nth-child(10) {
     h4 {
         width: 260px;
     }
-    h4:nth-child(2) {
+    #pfBox-1-title {
         top: 125px;
     }
-    h4:nth-child(4) {
+    #pfBox-2-title {
         top: 125px;
     }
-    h4:nth-child(6) {
+    #pfBox-3-title {
         top: 335px;
     }
-    h4:nth-child(8) {
+    #pfBox-4-title {
         top: 335px;
     }
-    h4:nth-child(10) {
+    #pfBox-5-title {
         top: 545px;
     }
 }
@@ -333,23 +333,23 @@ h4:nth-child(10) {
     h4 {
         width: 300px;
     }
-    h4:nth-child(2) {
+    #pfBox-1-title {
         left: 25px;
         top: 155px;
     }
-    h4:nth-child(4) {
+    #pfBox-2-title {
         left: 25px;
         top: 405px;
     }
-    h4:nth-child(6) {
+    #pfBox-3-title {
         left: 25px;
         top: 655px;
     }
-    h4:nth-child(8) {
+    #pfBox-4-title {
         left: 25px;
         top: 915px;
     }
-    h4:nth-child(10) {
+    #pfBox-5-title {
         left: 25px;
         top: 1155px;
     }
